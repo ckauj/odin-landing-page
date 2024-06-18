@@ -4,8 +4,7 @@ body {
 
 #first-section {
     background-color: #1F2937;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding: 0 300px;
 }
 
 #header .logo {
@@ -66,5 +65,10 @@ ul {
 
 .first button {
     margin-right: auto;
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 5px 20px;
+    border: 0;
+    color: white;
 }
 

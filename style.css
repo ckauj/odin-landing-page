@@ -72,3 +72,45 @@ ul {
     color: white;
 }
 
+.second h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.second.subtext {
+    font-size: 18px;
+}
+
+#second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#middle-image-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.second.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+}
+
+.second.image {
+    width: 100px;
+    height: 100px;
+    border-width: 2px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+

@@ -19,7 +19,7 @@ body {
 
 #header ul,
 .first p,
-.second {
+.first.image {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -48,7 +48,7 @@ ul {
     gap: 20px;
 }
 
-.second {
+.first.image {
     display: flex;
     align-items: center;
     justify-content: center;

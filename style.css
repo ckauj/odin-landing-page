@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 #first-section {
@@ -111,6 +112,28 @@ ul {
     border-color: #3882F6;
     border-style: solid;
     border-radius: 10px;
+}
+
+#third-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.third.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 500px;
+}
+
+.third.person {
+    margin-left: auto;
+    width: 600px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 

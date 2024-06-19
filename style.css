@@ -8,7 +8,8 @@ body {
     padding: 0 300px;
 }
 
-#header .logo {
+#header .logo,
+.fourth.main-text {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -20,7 +21,8 @@ body {
 
 #header ul,
 .first p,
-.first.image {
+.first.image,
+.fourth.subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -64,13 +66,17 @@ ul {
     flex: 1;
 }
 
-.first button {
+button {
     margin-right: auto;
     background-color: #3882F6;
     border-radius: 6px;
-    padding: 5px 20px;
-    border: 0;
+    padding: 10px 40px;
     color: white;
+    font-size: 18px;
+}
+
+.first button {
+    border: 0;
 }
 
 h2.second {
@@ -136,6 +142,26 @@ h2.second {
     width: 800px;
     font-size: 18px;
     font-weight: bold;
+}
+
+#fourth-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 250px;
+}
+
+.fourth.container {
+    background-color: #3882F6;
+    display: flex;
+    flex: 1;
+    padding: 50px 100px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+button.fourth {
+    border-color: white;
+    border-style: solid;
 }
 
 

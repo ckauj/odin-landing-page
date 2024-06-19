@@ -164,4 +164,14 @@ button.fourth {
     border-style: solid;
 }
 
+#footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
 
